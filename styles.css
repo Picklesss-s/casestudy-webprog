@@ -1,0 +1,131 @@
+body, html {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.overlapimg {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.overlapnav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.overlaplogo {
+    position: absolute;
+    top: 86%;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    background-color: rgba(229, 24, 62, 0.8);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    opacity: 0.8;
+}
+
+nav a {
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+
+.main-img {
+    width: 100%;
+    height: 100vh; /* Make the image fit the entire viewport height */
+    object-fit: cover;
+}
+
+.main-logos {
+
+    text-align: center;
+    padding: 50px;
+    color: #004d40;
+
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    opacity: 0.6;
+}
+
+.logos img {
+    max-width: 100px;
+}
+
+.about-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: #d35400;
+}
+
+.about-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.about-grid div {
+    width: 25%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-grid div h3 {
+    color: #d35400;
+}
+
+.news-section {
+    background-color: #db062c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.news-grid div {
+    width: 20%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
